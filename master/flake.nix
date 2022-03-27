@@ -11,6 +11,7 @@
   inputs.src-optionals-master.ref   = "refs/heads/master";
   inputs.src-optionals-master.owner = "MasonMcGill";
   inputs.src-optionals-master.repo  = "optionals";
+  inputs.src-optionals-master.dir   = "";
   inputs.src-optionals-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
